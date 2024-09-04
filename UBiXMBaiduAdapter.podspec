@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     'OTHER_LINK_FLAG' => '$(inherited) -ObjC' }
  
   
- s.dependency 'BaiduMobAdSDK', '5.36'
+ s.dependency 'BaiduMobAdSDK', '5.360'
  # s.dependency 'UBiXMediationSDK'
  s.swift_version = '5.0'
 
