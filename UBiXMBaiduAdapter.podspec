@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UBiXMBaiduAdapter'
-  s.version          = '5.371.1'
+  s.version          = '5.371.2'
   s.summary          = 'UBiX聚合广告变现SDK Baidu Adapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }
