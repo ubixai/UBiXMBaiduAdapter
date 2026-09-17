@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UBiXMBaiduAdapter'
-  s.version          = '10.050.0'
+  s.version          = '10.060.0'
   s.summary          = 'UBiX聚合广告变现SDK Baidu Adapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -12,12 +12,11 @@ Pod::Spec.new do |s|
 
   s.static_framework = true
 
-  s.vendored_frameworks = ['UBiXMBaiduAdapter/UBiXMBaiduAdapter.framework']
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+  s.vendored_frameworks = ['UBiXMBaiduAdapter/UBiXMBaiduAdapter.xcframework']
     'OTHER_LINK_FLAG' => '$(inherited) -ObjC' }
  
   
- s.dependency 'BaiduMobAdSDK', '10.050'
+ s.dependency 'BaiduMobAdSDK', '10.060'
  s.dependency 'UBiXMediationSDK'
  s.swift_version = '5.0'
 
